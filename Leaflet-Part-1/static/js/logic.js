@@ -80,6 +80,7 @@ function dataMarker(feature, latlng) {
     }).addTo(myMap);
   
   // Set up the legend
+  // Source 1
   let legend = L.control({position: 'bottomright'});
   legend.onAdd = function () {
     let div = L.DomUtil.create('div', 'info legend');
